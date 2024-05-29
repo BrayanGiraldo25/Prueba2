@@ -1,0 +1,46 @@
+.sidebar {
+    width: 250px;
+    height: 100vh; /* Altura de la ventana del navegador */
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    position: fixed; /* Fijar la sidebar al lado izquierdo */
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+
+.main-content {
+    margin-left: 250px; 
+    padding: 20px;
+    flex: 1; 
+}
+
+.main-content h1 {
+    margin-top: 0;
+}
